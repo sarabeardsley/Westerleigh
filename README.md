@@ -31,7 +31,9 @@ License plates with the most tickets:
 * Plate ID AG24908 has 18 tickets.
 * Plate ID GYF1158 has 16 tickets.
 
-[Map code](https://github.com/sarabeardsley/Westerleigh/blob/master/westerleigh%20map%20code.py)
+[Map code](https://github.com/sarabeardsley/Westerleigh/blob/master/westerleigh%20map%20code.py).
+
+
 [Here](https://github.com/sarabeardsley/Westerleigh/blob/master/map%20(1).geojson) is the Westerleigh map.
 
 
