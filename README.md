@@ -1,7 +1,7 @@
 # Westerleigh
 
 My neighborhood is Westerleigh, Staten Island, NY
-To see some basic demographic information, click [Here](https://github.com/sarabeardsley/Westerleigh/blob/master/My%20neighborhood%20HW%20%231.docx)
+To see some basic demographic information, click [Here](https://github.com/sarabeardsley/Westerleigh/blob/master/My%20neighborhood%20HW%20%231.pdf)
 
 [311 code](https://github.com/sarabeardsley/Westerleigh/blob/master/311complaints.py)
 
