@@ -26,3 +26,17 @@ License plates with the most tickets
 * Plate ID 1995584 has 18 tickets.
 * Plate ID AG24908 has 18 tickets.
 * Plate ID GYF1158 has 16 tickets.
+
+
+311 code
+* import csv
+* numbercomplaints = {}
+* f = open("311data10314.csv", encoding = 'utf-8')
+* reader = csv.DictReader(f)
+* for row in reader:
+    complaint = row["Complaint Type"]
+    numbercomplaints[complaint] = numbercomplaints.get(complaint, 0) + 1
+
+* worst_complaint = sorted(numbercomplaints, key = numbercomplaints.__getitem__, reverse=True)
+* for i in range(10):
+    print("Complaint Type", worst_complaint[i], "has", numbercomplaints[worst_complaint[i]], "complaints")
