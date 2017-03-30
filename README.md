@@ -1,6 +1,6 @@
 # Westerleigh
 
-
+[Here](https://github.com/sarabeardsley/Westerleigh/blob/master/311complaints.py) is the 311 code.
 
 Biggest 311 complaints:
  * Complaint Type Street Condition has 15489 complaints
@@ -28,28 +28,6 @@ License plates with the most tickets
 * Plate ID GYF1158 has 16 tickets.
 
 
-311 code
-* import csv
-* numbercomplaints = {}
-* f = open("311data10314.csv", encoding = 'utf-8')
-* reader = csv.DictReader(f)
-* for row in reader:
-    complaint = row["Complaint Type"]
-    numbercomplaints[complaint] = numbercomplaints.get(complaint, 0) + 1
 
-* worst_complaint = sorted(numbercomplaints, key = numbercomplaints.__getitem__, reverse=True)
-* for i in range(10):
-    print("Complaint Type", worst_complaint[i], "has", numbercomplaints[worst_complaint[i]], "complaints")
     
- Westerleigh map code
-* import csv
-* tickets = {}
-* f = open("Parking_Violations_Issued_Fiscal_Year_2016.csv")
-* reader = csv.DictReader(f)
-* for row in reader:
-    plate = row["Plate ID"]
-    tickets[plate] = tickets.get(plate,0) + 1
 
-* worst_plate = sorted(tickets, key = tickets.__getitem__, reverse=True)
-* for i in range(11):
-    print("Plate ID", worst_plate[i], "has", tickets[worst_plate[i]], "tickets.")
