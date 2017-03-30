@@ -3,7 +3,7 @@
 My neighborhood is Westerleigh, Staten Island, NY
 To see some basic demographic information, click [Here](https://github.com/sarabeardsley/Westerleigh/blob/master/My%20neighborhood%20HW%20%231.docx)
 
-[Here](https://github.com/sarabeardsley/Westerleigh/blob/master/311complaints.py) is the 311 code.
+[311 code](https://github.com/sarabeardsley/Westerleigh/blob/master/311complaints.py)
 
 Biggest 311 complaints:
  * Complaint Type Street Condition has 15489 complaints
@@ -31,9 +31,9 @@ License plates with the most tickets:
 * Plate ID AG24908 has 18 tickets.
 * Plate ID GYF1158 has 16 tickets.
 
-[Here](https://github.com/sarabeardsley/Westerleigh/blob/master/westerleigh%20map%20code.py) is the Westerleigh map code.
+[Map code](https://github.com/sarabeardsley/Westerleigh/blob/master/westerleigh%20map%20code.py)
 [Here](https://github.com/sarabeardsley/Westerleigh/blob/master/map%20(1).geojson) is the Westerleigh map.
 
 
-[Here](https://github.com/sarabeardsley/Westerleigh/blob/master/mapwesterleigh.html) is a map with 311 complaints.
+[Here](https://github.com/sarabeardsley/Westerleigh/blob/master/Screen%20Shot%202017-03-30%20at%207.12.24%20PM.png) is a map with 311 complaints.
     
